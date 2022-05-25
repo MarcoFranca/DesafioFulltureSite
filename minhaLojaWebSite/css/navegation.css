@@ -1,0 +1,42 @@
+.menu{
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.menu-logo{
+    width: 180px;
+    margin-left: 30px;
+    margin-right: 5vw;
+}
+
+.menu-logo-image{
+    width: 100%;
+}
+
+.menu-navigation{
+    width: calc(24vw + 150px);
+
+}
+
+.menu-navigation-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navigation-item{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navigation-bar::after{
+    display: block;
+    content: '';
+    width: 80%;
+    height: 4px;
+    margin-top: 8px;
+    background-color: #fe7467;
+}

@@ -1,0 +1,21 @@
+.about-us{
+    display: grid;
+    grid-template-columns: 50vw auto;
+    grid-template-rows: 200px auto;
+    height: 650px;
+    background-image: url("../../images/thor_header.jpg");
+    background-size: cover;
+    background-position: top center;
+}
+
+.title-about{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.about-us-text{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 0 5vw;
+}
+

@@ -1,0 +1,31 @@
+.product-title{
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 150vh;
+}
+
+.product-item{
+    width: 30vw;
+}
+
+.product-img{
+    width: 100%;
+}
+
+.product-price{
+     margin-top: 15px;
+}
+
+.product-item button{
+    margin-bottom: 25px;
+}
+.btn-sell{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
