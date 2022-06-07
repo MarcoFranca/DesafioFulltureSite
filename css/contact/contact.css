@@ -1,0 +1,90 @@
+.contact{
+    padding: 0 18vw;
+    height: 85vh;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+}
+
+.contact-text{
+    text-align: center;
+    margin: 40px 6vw;
+}
+
+.register{
+    display: flex;
+    padding: 25px 0;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.contact-form-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: calc(48vw - 18vw);
+}
+
+.contact-form-input input{
+    border: 2px solid #dcdddd;
+    border-radius: 10px;
+    width: 99%;
+    padding: 15px 0;
+    margin-top: 10px;
+
+}
+.contact-form-input input::placeholder{
+    font-size: medium;
+    text-align: left;
+    padding-left: 3vw;
+    color: #dcdddd;
+}
+.contact-form-text{
+    width: calc(48vw - 18vw);
+}
+
+.contact-form-text textarea{
+    border: 2px solid #dcdddd;
+    margin-top: 10px;
+    width: 98%;
+    height: 86%;
+    border-radius: 15px;
+}
+.contact-form-text textarea::placeholder{
+    padding-top: 15px;
+    text-align: center;
+    font-size: large;
+    color: #dcdddd;
+}
+
+.btn-contact{
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 768px){
+
+
+}
+
+
+@media screen and (max-width: 481px){
+    .contact{
+        padding: 0 10vw;
+    }
+    .register{
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    .contact-form-input{
+        width: 100%;
+    }
+    .contact-form-text{
+        width: 100%;
+    }
+}

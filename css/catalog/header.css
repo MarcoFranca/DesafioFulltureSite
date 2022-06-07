@@ -1,0 +1,48 @@
+.header{
+    background-image: url("../../images/captainmarvelheader.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+ }
+
+.header-image-title{
+    width: auto;
+    height: 15rem;
+    position: absolute;
+    left: 8rem;
+    bottom: 3rem;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .header-image-title{
+        height: 9rem;
+        left: 3rem;
+        bottom: 5rem;
+    }
+
+}
+@media screen and (max-width: 481px){
+    .header{
+        background-image: url("../../images/captainmarvelheader_Mobile.jpg");
+        height: 80vh;
+    }
+
+    .header-image-title{
+        display: none;
+    }
+
+}
+
+@media screen and (max-height: 530px){
+
+    .header-image-title{
+        height: 9rem;
+        left: 3rem;
+        bottom: 5rem;
+    }
+
+}

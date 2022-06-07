@@ -1,0 +1,53 @@
+.product-title{
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 150vh;
+}
+
+.product-item{
+    width: 30vw;
+}
+
+.product-img{
+    width: 100%;
+}
+
+.product-price{
+     margin-top: 15px;
+}
+
+.product-item button{
+    margin-bottom: 25px;
+}
+.btn-sell{
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+/*config text for mobile 481px*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    .product-item{
+        width: 45vw;
+    }
+
+}
+@media screen and (max-width: 481px){
+    .product-title{
+     margin-top: -10px;
+    }
+    .product-item{
+        width: 90vw;
+    }
+
+    .product{
+        margin: 0 20vw;
+    }
+
+}

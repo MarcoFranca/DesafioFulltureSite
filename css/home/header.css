@@ -1,0 +1,48 @@
+header{
+    height: 100vh;
+}
+
+.header{
+    background-image: url("../../images/spidermanheader.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.header-image-title{
+    width: auto;
+    height: 18rem;
+    position: absolute;
+    left: 10rem;
+    bottom: 9rem;
+}
+
+/*config header for tablet 768px*/
+@media screen and (max-width: 768px){
+    .header {
+        background-image: url("../../images/spidermanheader_mobile.jpg");
+        background-position: center;
+    }
+
+    .header-image-title{
+        height: 11rem;
+        left: 1rem;
+        bottom: 9rem;
+        position: absolute;
+    }
+
+}
+@media screen and (max-height: 530px){
+
+    .header-image-title{
+        height: 8rem;
+        left: 3rem;
+        bottom: 5rem;
+    }
+
+}
+
+
+
+

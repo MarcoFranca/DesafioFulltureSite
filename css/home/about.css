@@ -1,0 +1,69 @@
+.about-us{
+    display: grid;
+    grid-template-columns: 50vw auto;
+    grid-template-rows: 200px auto;
+    height: 100vh;
+    background-image: url("../../images/thor_header.jpg");
+    background-size: cover;
+    background-position: top center;
+}
+
+.title-about{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.about-us-text{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 0 5vw;
+}
+
+/*config about for tablet 768px*/
+@media screen and (max-width: 768px){
+    .about-us {
+        display: flex;
+        height: 70vh;
+        background-image: linear-gradient(#fe7467, #fc3836);
+    }
+
+    .about-us-text{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .about-us {
+        display: flex;
+        height: 70vh;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        background-image: linear-gradient(#fe7467, #fc3836);
+        background-position: center;
+    }
+
+    .about-us-text{
+        padding: 0 12vw;
+    }
+}
+
+@media screen and (max-height: 530px){
+
+    .title-about{
+        font-size: 20px;
+    }
+    .title::after{
+        width: 85px;
+        height: 4px;
+    }
+
+    .about-us-text{
+        font-weight: 500;
+    }
+
+    .about-us{
+        grid-template-rows: 100px auto;
+    }
+
+}
