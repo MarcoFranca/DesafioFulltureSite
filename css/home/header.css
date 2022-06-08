@@ -1,7 +1,3 @@
-header{
-    height: 100vh;
-}
-
 .header{
     background-image: url("../../images/spidermanheader.jpg");
     background-size: cover;
@@ -27,12 +23,28 @@ header{
 
     .header-image-title{
         height: 11rem;
-        left: 1rem;
-        bottom: 9rem;
+        left: 2rem;
+        bottom: 3rem;
         position: absolute;
     }
 
 }
+
+/*config header for mobile 483px*/
+@media screen and (max-width: 483px){
+    .header {
+        height: 60vh;
+    }
+
+    .header-image-title{
+        height: 8rem;
+        left: 1rem;
+        bottom: 2rem;
+        position: absolute;
+    }
+
+}
+
 @media screen and (max-height: 530px){
 
     .header-image-title{

@@ -1,7 +1,7 @@
 .about-us{
     display: grid;
     grid-template-columns: 50vw auto;
-    grid-template-rows: 200px auto;
+    grid-template-rows: 150px calc(90vh - 150px);
     height: 100vh;
     background-image: url("../../images/thor_header.jpg");
     background-size: cover;
@@ -16,21 +16,15 @@
 .about-us-text{
     grid-column-start: 2;
     grid-column-end: 3;
-    padding: 0 5vw;
+    padding: 0 5vw 3vh 5vw;
+    max-height: 329px;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
 }
 
 /*config about for tablet 768px*/
-@media screen and (max-width: 768px){
-    .about-us {
-        display: flex;
-        height: 70vh;
-        background-image: linear-gradient(#fe7467, #fc3836);
-    }
-
-    .about-us-text{
-        margin-top: 40px;
-    }
-}
 
 @media screen and (max-width: 768px){
     .about-us {
@@ -38,13 +32,34 @@
         height: 70vh;
         flex-direction: column;
         text-align: center;
-        justify-content: center;
+        justify-content: space-around;
         background-image: linear-gradient(#fe7467, #fc3836);
         background-position: center;
     }
 
+}
+
+@media screen and (min-width: 483px) and (max-width: 768px){
     .about-us-text{
-        padding: 0 12vw;
+        padding: 3vh 12vw;
+        display: -webkit-box;
+        max-height: 210px;
+        -webkit-line-clamp: 8;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+    }
+}
+@media screen and (max-width: 483px){
+    .about-us {
+        height: auto;
+        padding-top: 25px;
+        justify-content: initial;
+
+    }
+
+    .about-us-text{
+        margin: 5vh 12vw;
+        max-height: 235px;
     }
 }
 
