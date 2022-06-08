@@ -1,3 +1,10 @@
+/*medias mais usadas*/
+/*320px — 480px: dispositivos móveis.*/
+/*481px — 768px: iPads, tablets.*/
+/*769px — 1024px: telas pequenas, laptops.*/
+/*1025px — 1200px: desktops, telas grandes.*/
+/*1201px e acima — telas muito grandes, TVs.*/
+
 /*font*/
 body{
     font-family: 'Montserrat', sans-serif;
@@ -14,7 +21,16 @@ a{
 a:target{
     color: #fe7467;
 }
-
+/*config Anchor for mobile 481px*/
+@media screen and (max-width: 481px){
+    a{
+        font-size: 20px;
+    }
+}
+/*Anchor end*/
+textarea{
+    resize: none;
+}
 /*Titles*/
 
 .title{
@@ -34,6 +50,12 @@ a:target{
 .title-gray{
     color: #504e50;
 }
+/*config Title for mobile 481px*/
+@media screen and (max-width: 481px){
+    .title{
+        font-size: 20px;
+    }
+}
 
 /*Title end*/
 /*Title Bar styles*/
@@ -51,6 +73,14 @@ a:target{
 
 .title-gray::after{
     background-color: #fe7467;
+}
+
+/*config Bar style for mobile 481px*/
+@media screen and (max-width: 481px){
+    .title::after{
+        width: 85px;
+        height: 4px;
+    }
 }
 
 /*Bar styles end*/
@@ -84,6 +114,16 @@ a:target{
     font-size: 25px;
     font-weight: 700;
 }
+
+/*config text for mobile 481px*/
+@media screen and (max-width: 481px){
+    .text{
+        font-size: 16px;
+        line-height: 1.3;
+        font-weight: 500;
+    }
+}
+
 /*Texts end*/
 
 /*button*/
@@ -102,7 +142,16 @@ a:target{
     margin-top: 15px;
     padding: 10px 20px;
 }
+/*config text for mobile 481px*/
+@media screen and (max-width: 481px){
+    .btn{
 
+        border-radius: 18px;
+        font-weight: 700;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
 
 
 
