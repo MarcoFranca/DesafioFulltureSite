@@ -16,6 +16,7 @@
 
 .register{
     display: flex;
+    padding: 25px 0;
     flex-wrap: wrap;
     gap: 2vw;
 }
@@ -62,4 +63,28 @@
 .btn-contact{
     width: 100%;
 
+}
+
+
+@media screen and (max-width: 768px){
+
+
+}
+
+
+@media screen and (max-width: 481px){
+    .contact{
+        padding: 0 10vw;
+    }
+    .register{
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+    .contact-form-input{
+        width: 100%;
+    }
+    .contact-form-text{
+        width: 100%;
+    }
 }

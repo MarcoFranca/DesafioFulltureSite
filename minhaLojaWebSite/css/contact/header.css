@@ -16,3 +16,28 @@ header{
     left: 8rem;
     bottom: 5rem;
 }
+
+
+@media screen and (max-width: 768px){
+
+    .header-image-title{
+        height: 10em;
+    }
+    .header{
+        background-image: url("../../images/contatoheader_mobile.jpg");
+    }
+}
+
+@media screen and (max-width: 481px){
+
+    .header-image-title{
+        display: none;
+    }
+}
+
+@media screen and (max-height: 530px){
+    .header-image-title{
+        height: 10em;
+    }
+
+}

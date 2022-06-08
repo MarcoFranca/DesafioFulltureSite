@@ -29,3 +29,25 @@
     margin-top: 20px;
     padding: 10px 20px;
 }
+
+/*config text for mobile 481px*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    .product-item{
+        width: 45vw;
+    }
+
+}
+@media screen and (max-width: 481px){
+    .product-title{
+     margin-top: -10px;
+    }
+    .product-item{
+        width: 90vw;
+    }
+
+    .product{
+        margin: 0 20vw;
+    }
+
+}

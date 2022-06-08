@@ -40,3 +40,23 @@
     margin-top: 8px;
     background-color: #fe7467;
 }
+
+/*configuração para mobile mobile 768px*/
+@media screen and (max-width: 768px) {
+
+    .menu{
+        flex-direction: column;
+        height: 30vh;
+        justify-content: space-around;
+    }
+
+    .menu-logo{
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .menu-navigation{
+        width: 100vw;
+    }
+
+}
