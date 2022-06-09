@@ -40,6 +40,7 @@
 
 }
 
+/*config about for tablet 768px*/
 @media screen and (min-width: 483px) and (max-width: 768px){
     .about-us-text{
         padding: 3vh 12vw;
@@ -50,12 +51,12 @@
         -webkit-box-orient: vertical;
     }
 }
+
+/*config about for mobile 483px*/
 @media screen and (max-width: 483px){
     .about-us {
         height: auto;
         padding-top: 25px;
-
-
     }
 
     .about-us-text{
@@ -66,7 +67,6 @@
 }
 
 @media screen and (max-height: 530px){
-
     .title-about{
         font-size: 20px;
     }
@@ -76,11 +76,15 @@
     }
 
     .about-us-text{
+        margin-top: 10px;
         font-weight: 500;
+        max-height: 290px;
+        -webkit-line-clamp: 10;
     }
 
     .about-us{
-        grid-template-rows: 100px auto;
+        height: 100vh;
+        grid-template-rows: 100px 110vh;
     }
 
 }

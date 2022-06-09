@@ -82,6 +82,6 @@
         font-weight: 500;
     }
     .catalog{
-        height: 200vh;
+        height: auto;
     }
 }
