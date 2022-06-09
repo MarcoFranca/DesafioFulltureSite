@@ -1,6 +1,3 @@
-header{
-    height: 100vh;
-}
 .header{
     background-image: url("../../images/contatoheader.jpg");
     background-size: cover;
@@ -17,7 +14,7 @@ header{
     bottom: 5rem;
 }
 
-
+/*config header for tablet 768px*/
 @media screen and (max-width: 768px){
 
     .header-image-title{
@@ -28,8 +25,11 @@ header{
     }
 }
 
+/*config header for mobile 483px*/
 @media screen and (max-width: 481px){
-
+    .header {
+        height: 55vh;
+    }
     .header-image-title{
         display: none;
     }

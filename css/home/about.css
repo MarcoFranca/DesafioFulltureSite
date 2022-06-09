@@ -1,8 +1,8 @@
 .about-us{
     display: grid;
-    grid-template-columns: 50vw auto;
-    grid-template-rows: 150px calc(90vh - 150px);
-    height: 100vh;
+    grid-template-columns: 53vw 41vw;
+    grid-template-rows: 180px calc(87vh - 180px);
+    height: 95vh;
     background-image: url("../../images/thor_header.jpg");
     background-size: cover;
     background-position: top center;
@@ -16,8 +16,9 @@
 .about-us-text{
     grid-column-start: 2;
     grid-column-end: 3;
-    padding: 0 5vw 3vh 5vw;
-    max-height: 329px;
+    max-height: 340px;
+    margin-top: calc(30vh - 180px);
+    align-content: center;
     display: -webkit-box;
     -webkit-line-clamp: 12;
     overflow: hidden;
@@ -53,13 +54,14 @@
     .about-us {
         height: auto;
         padding-top: 25px;
-        justify-content: initial;
+
 
     }
 
     .about-us-text{
         margin: 5vh 12vw;
         max-height: 235px;
+        -webkit-line-clamp: 11;
     }
 }
 

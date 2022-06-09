@@ -15,7 +15,7 @@
     bottom: 3rem;
 }
 
-
+/*config header for tablet 768px*/
 @media screen and (max-width: 768px){
 
     .header-image-title{
@@ -25,10 +25,11 @@
     }
 
 }
+/*config header for mobile 483px*/
 @media screen and (max-width: 481px){
     .header{
         background-image: url("../../images/captainmarvelheader_Mobile.jpg");
-        height: 80vh;
+        height: 55vh;
     }
 
     .header-image-title{

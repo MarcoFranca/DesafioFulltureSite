@@ -36,6 +36,7 @@
     margin-top: 10px;
 
 }
+
 .contact-form-input input::placeholder{
     font-size: medium;
     text-align: left;
@@ -65,16 +66,21 @@
 
 }
 
-
-@media screen and (max-width: 768px){
-
-
-}
-
-
+/*config header for mobile 483px*/
 @media screen and (max-width: 481px){
     .contact{
         padding: 0 10vw;
+    }
+    .contact-content{
+        margin-top: 10px;
+    }
+
+    .contact-title{
+        margin-top: 10px;
+    }
+
+    .contact-text{
+        margin-bottom: 0;
     }
     .register{
         flex-direction: column;

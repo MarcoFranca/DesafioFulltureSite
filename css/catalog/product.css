@@ -40,7 +40,8 @@
 }
 @media screen and (max-width: 481px){
     .product-title{
-     margin-top: -10px;
+        padding-top: 20px;
+        margin-bottom: 30px;
     }
     .product-item{
         width: 90vw;

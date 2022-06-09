@@ -1,11 +1,11 @@
 .menu{
     display: flex;
-    height: 150px;
+    height: 130px;
     align-items: center;
 }
 
 .menu-logo{
-    width: 180px;
+    width: 130px;
     margin-left: 30px;
     margin-right: 5vw;
 }
@@ -15,7 +15,7 @@
 }
 
 .menu-navigation{
-    width: calc(24vw + 150px);
+    width: calc(24vw + 130px);
 
 }
 
@@ -41,7 +41,7 @@
     background-color: #fe7467;
 }
 
-/*configuração para mobile mobile 768px*/
+/*config for tablet 768px*/
 @media screen and (max-width: 768px) {
 
     .menu{
@@ -51,8 +51,26 @@
     }
 
     .menu-logo{
-        width: 150px;
+        width: 130px;
         margin-top: 20px;
+    }
+
+    .menu-navigation{
+        width: 100vw;
+    }
+
+}
+
+/*config for mobile 481px*/
+@media screen and (max-width: 481px) {
+
+    .menu{
+        height: 20vh;
+    }
+
+    .menu-logo{
+        width: 130px;
+        margin-top: 15px;
     }
 
     .menu-navigation{

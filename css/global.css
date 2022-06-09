@@ -14,7 +14,7 @@ body{
 
 a{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ a:target{
 /*config Anchor for mobile 481px*/
 @media screen and (max-width: 481px){
     a{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 /*Anchor end*/
@@ -94,11 +94,11 @@ textarea{
 
 .text-white{
     color: white;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .text-gray{
-    font-weight: 600;
+    font-weight: 500;
     color: #504e50;
 }
 
