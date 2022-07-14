@@ -1,7 +1,7 @@
 # Desafio Fullture - Site Css3 - Html5 🚀🚀
 
 ---
-## Desenvolvimento de Site da loja Super Hero feito no curso curso da Fullture
+## Desenvolvimento de Site da loja Super Hero feito no curso da Fullture
 
 Site desenvolvido para testar os conhecimentos em _**Html e Css**_ adiquiridos no 
 módulo do curso _**Full-Stack javascript**_ da [Fullture](https://www.fullture.com/dev-full-stack/ "link para o site da fullture")  
