@@ -94,7 +94,9 @@ I reinforced my CSS knowledge in `flex-box` , `grid layout`, `border radios`, `@
     grid-column-end: 3;
     padding: 0 5vw;
 }
+```
 
+```css
 @media screen and (max-width: 768px){
     .about-us {
         display: flex;
